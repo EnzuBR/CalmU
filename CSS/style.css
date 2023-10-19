@@ -14,7 +14,7 @@ header{
     background-color: rgb(86, 173, 198);
 }
 
-.titulo{
+header h1{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
