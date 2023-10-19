@@ -101,3 +101,25 @@ h3{
     width: 150%;
     height: auto;
 }
+
+.sevenly{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.saround{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sbetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.txtac{
+    text-align: center;
+}
