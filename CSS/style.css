@@ -69,7 +69,6 @@ main{
     border: 0.1rem solid black;
     padding: 0.5rem 1rem 0.5rem 1rem;
     display: flex;
-    justify-content: space-between;
     border-radius: 0.3rem;
 }
 
@@ -80,7 +79,6 @@ main{
     padding: 0.2rem;
     margin: 0.3rem;
     display: flex;
-    justify-content: center;
     border-radius: 0.3rem;
 }
 
@@ -102,4 +100,22 @@ h3{
 .grafico{
     width: 150%;
     height: auto;
+}
+
+.sevenly{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.saround{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sbetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
