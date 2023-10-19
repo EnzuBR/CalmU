@@ -70,6 +70,7 @@ main{
     padding: 0.5rem 1rem 0.5rem 1rem;
     display: flex;
     justify-content: space-between;
+    border-radius: 0.3rem;
 }
 
 .boxzinho{
@@ -80,6 +81,7 @@ main{
     margin: 0.3rem;
     display: flex;
     justify-content: center;
+    border-radius: 0.3rem;
 }
 
 .sectionhome{
