@@ -39,3 +39,22 @@ footer img{
     height: auto;
     margin-right: 1rem;
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.center{
+    align-items: center;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
