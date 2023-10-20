@@ -80,10 +80,19 @@ header{
 }
 
 header h1{
+    display: flex;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     font-size: 2rem;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+header img{
+    width: 3rem;
+    height: auto;
+    margin-right: 1rem;
 }
 .center{
     align-items: center;
