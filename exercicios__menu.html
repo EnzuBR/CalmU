@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width; initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleexercicios.css">
 </head>
 
 <body>
@@ -14,30 +14,45 @@
         <h1>Exercícios</h1>
         <a href="settings.html"><img src="IMG/setting.png" alt="settings"></a>
     </header>
-    <main>
-        <h1>
-            Nesta Semana:
-        </h1>
-        <h2>Meditações Feitas:</h2>
-        <p>0</p>
-
-        <h2>Meta de Meditações</h2>
-        <input type="number" id="meta-meditacoes" value="5">
-
-        <h2>Alongamentos Feitos:</h2>
-        <p>0</p>
-
-        <h2>Meta de Alongamentos:</h2>
-        <input type="number" id="meta-alongamentos" value="5">
-        <h2>
-            <a href="exercicios_meditacao.html"> Meditação</a>
-            <a href="exercicios_alongamento.html"> Alongamentos</a>
-        </h2>
-        <h2>
-            Favoritos <img src="IMG/star.png" alt="star">
-        </h2>
-        <h3><a href="exercicios_video_alongamento.html">Alongamento 1</a></h3>
-        <h3><a href="exercicios_video_meditacao.html">Meditação 3</a></h3>
+    <main class="ulhome">
+        <article class="linha jcenter">
+            <h1>
+                Nesta Semana:
+            </h1>
+        </article>
+        <section class="linha sevenly">
+            <article class="coluna saround sbetween">
+                <p class="feitos">0</p>
+                <h2>Meditações Feitas:</h2>
+                <article class="box linha meta">
+                    <h2>Meta:</h2>
+                    <input type="number" id="meta" value="5">
+                </article>
+                <a class="box" href="exercicios_meditacao.html"> Meditação</a>
+            </article>
+            <article class="coluna saround sbetween">
+                <p class="feitos">0</p>
+                <h2>Alongamentos Feitos:</h2>
+                <article class="box linha meta">
+                    <h2>Meta:</h2>
+                    <input type="number" id="meta" value="5">
+                </article>
+                <a class="box" href="exercicios_alongamento.html"> Alongamentos</a>
+            </article>
+        </section>
+        <section>
+            <h2>
+                Favoritos <img class="star" src="IMG/star.png" alt="star">
+            </h2>
+            <ul class="coluna jcenter">
+            <li>
+                <h3 class="box fav"><a href="exercicios_video_alongamento.html">Alongamento 1</a></h3>
+            </li>
+            <li>
+                <h3 class="box fav"><a href="exercicios_video_meditacao.html">Meditação 3</a></h3>
+            </li>
+            </ul>
+        </section>
     </main>
     <footer>
         <a href="home.html"><img src="IMG/home.png" alt="home"></a>

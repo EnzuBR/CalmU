@@ -1,0 +1,138 @@
+a{
+    text-decoration:none;
+    color: rgb(86, 173, 198);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    border-bottom: 0.1rem solid black;
+    padding: 0.5rem;
+    background-color: rgb(86, 173, 198);
+}
+
+header h1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    border-top: 0.1rem solid black;
+    padding: 0.5rem;
+    background-color: rgb(86, 173, 198);
+}
+
+footer img{
+    width: 3rem;
+    height: auto;
+    margin-right: 1rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 2rem;
+}
+.center{
+    align-items: center;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.ulhome{
+    min-height: 22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box{
+    border: 0.1rem solid black;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 0.3rem;
+}
+.feitos{
+    text-align: center;
+    align-items: center;
+    border: 0.1rem solid black;
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.meta{
+    width: 4rem;
+}
+.sectioncentro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+h2{
+    font-size: 1.2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+.grafico{
+    width: 150%;
+    height: auto;
+}
+
+.sevenly{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.saround{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sbetween{
+    min-height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jcenter{
+    display: flex;
+    justify-content: center;
+}
+main img{
+    width: 2rem;
+    height:2rem;
+}
+.fav{
+    width: 10rem;
+}
