@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width; initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/styleemergencia.css">
+    <link rel="stylesheet" href="css/style_emergencia.css">
 </head>
 
 <body>
@@ -15,26 +15,37 @@
         <a href="settings.html"><img src="IMG/setting.png" alt="settings"></a>
     </header>
     <main>
-        <section><button type="button"><h2>Auto-Ajuda</h2></button>
-            <button type="button"><h2>Ajudar Alguém</h2></button></section>
-            <section><h2>Crise de Ansiedade</h2>
+        <section class="sbotoes"><button type="button">
+                <h2>Auto-Ajuda</h2>
+            </button>
+            <button type="button">
+                <h2>Ajudar Alguém</h2>
+            </button>
+        </section>
+        <section>
+            <h2>Crise de Ansiedade</h2>
             <h4>Em primeiro lugar...</h4>
-        <h4>posteriormente, deve-se</h4>
-        <a href="emergencia_video.html">Guia Detalhado com Vídeo</a></section>
-        <section><h2>Ataque de Pânico</h2>
+            <h4>posteriormente, deve-se</h4>
+            <a href="emergencia_video.html">Guia Detalhado com Vídeo</a>
+        </section>
+        <section>
+            <h2>Ataque de Pânico</h2>
             <h4>Para começar...</h4>
-        <h4>Caso não ajude, tente...</h4>
-        <a href="emergencia_video.html">Guia Detalhado com Vídeo</a></section>
-        <section><h2>Estresse Pós-traumático</h2>
+            <h4>Caso não ajude, tente...</h4>
+            <a href="emergencia_video.html">Guia Detalhado com Vídeo</a>
+        </section>
+        <section>
+            <h2>Estresse Pós-traumático</h2>
             <h4>Em primeiro lugar...</h4>
-        <h4>então, deve-se...</h4>
-        <a href="emergencia_video.html">Guia Detalhado com Vídeo</a></section>
-        <section><h2>Pesquisar</h2>
-            <form>
-                <input type="search" id="query">
-                <label for="query" class="input-group_label">Sintômas</label>
+            <h4>então, deve-se...</h4>
+            <a href="emergencia_video.html">Guia Detalhado com Vídeo</a>
+        </section>
+        <section class="search">
+            <h2>Pesquisar</h2>
+            <form id="form">
+                <input class="barra" type="search" id="query" name="q" placeholder="Insira seus sintômas">
+                <button class="botaos">Pesquisar</button>
             </form>
-                <button>Search</button>
         </section>
     </main>
     <footer>
