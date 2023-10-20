@@ -136,3 +136,12 @@ main img{
 .fav{
     width: 10rem;
 }
+.video{
+    width: 10rem;
+    height:8rem;
+}
+.title{
+    padding-left: 2;
+    font-size:2rem;
+    padding-bottom: 1rem;
+}
