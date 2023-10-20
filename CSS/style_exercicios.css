@@ -1,3 +1,7 @@
+* {
+    margin: 0rem 1rem;
+}
+
 a {
     text-decoration: none;
     color: rgb(86, 173, 198);
@@ -12,10 +16,12 @@ header {
     border-bottom: 0.1rem solid black;
     padding: 0.5rem;
     background-color: rgb(86, 173, 198);
+
 }
 
 header h1 {
     font-size: 2rem;
+
 }
 
 footer {
@@ -40,6 +46,8 @@ footer img {
 main {
     display: flex;
     flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
 }
 
 input {
@@ -116,6 +124,10 @@ h3 {
     font-size: 1.5rem;
 }
 
+.estrela{
+    width: 1rem;
+    height: auto;
+}
 .grafico {
     width: 150%;
     height: auto;
