@@ -6,7 +6,7 @@ a {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     position: relative;
     border-bottom: 0.1rem solid black;
@@ -15,10 +15,12 @@ header {
 }
 
 header h1 {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
     font-size: 2rem;
+}
+
+.img_seta {
+    width: 1.5rem;
+    height: auto;
 }
 
 footer {
@@ -64,12 +66,6 @@ section {
     justify-content: space-between;
 }
 
-h5 {
-    position: absolute;
-    visibility: hidden;
-    left: -1000%;
-}
-
 button {
     min-width: 50%;
     height: 2.5rem;
@@ -102,6 +98,12 @@ h2 {
     border-radius: 0.1rem;
 }
 
-.tg {
-    font-size: 1.5rem;
+.video {
+    width: 75%;
+    align-self: center;
+}
+
+.tvideo {
+    text-align: center;
+    margin-top: 2.5rem;
 }
