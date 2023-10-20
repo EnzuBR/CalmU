@@ -126,3 +126,14 @@ header h1{
     display: flex;
     justify-content: flex-end;
 }
+
+.sectioncentro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+h2{
+    font-size: 1.7rem;
+}
