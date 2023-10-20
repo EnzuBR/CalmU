@@ -1,9 +1,9 @@
-a{
-    text-decoration:none;
+a {
+    text-decoration: none;
     color: rgb(86, 173, 198);
 }
 
-header{
+header {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -14,49 +14,49 @@ header{
     background-color: rgb(86, 173, 198);
 }
 
-header h1{
+header h1 {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     font-size: 2rem;
 }
 
-footer{
+footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    bottom:0;
+    bottom: 0;
     width: 100%;
     border-top: 0.1rem solid black;
     padding: 0.5rem;
     background-color: rgb(86, 173, 198);
 }
 
-footer img{
+footer img {
     width: 3rem;
     height: auto;
     margin-right: 1rem;
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
 }
 
-.center{
+.center {
     align-items: center;
 }
 
-.box{
+.box {
     border: 0.1rem solid black;
     padding: 0.5rem 1rem 0.5rem 1rem;
     display: flex;
     border-radius: 0.3rem;
 }
 
-.boxzinho{
+.boxzinho {
     border: 0.1rem solid black;
     width: 100%;
     height: auto;
@@ -66,27 +66,27 @@ main{
     border-radius: 0.3rem;
 }
 
-.sectioncentro{
+.sectioncentro {
     display: flex;
     align-items: center;
     flex-direction: column;
     margin: 1rem;
 }
 
-h2{
+h2 {
     font-size: 1.7rem;
 }
 
-h3{
+h3 {
     font-size: 1.5rem;
 }
 
-.grafico{
+.grafico {
     width: 150%;
     height: auto;
 }
 
-.jcenter{
+.jcenter {
     display: flex;
     justify-content: center;
 }
