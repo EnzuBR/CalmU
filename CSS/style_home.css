@@ -1,6 +1,10 @@
+body {
+    font-family: 'Bree Serif', serif;
+}
+
 a {
     text-decoration: none;
-    color: rgb(86, 173, 198);
+    color: black;
 }
 
 header {
@@ -11,10 +15,10 @@ header {
     position: relative;
     border-bottom: 0.1rem solid black;
     padding: 0.5rem;
-    background-color: rgb(86, 173, 198);
+    background-color: #55b3f3;
 }
 
-.logo{
+.logo {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -39,7 +43,7 @@ footer {
     width: 100%;
     border-top: 0.1rem solid black;
     padding: 0.5rem;
-    background-color: rgb(86, 173, 198);
+    background-color: #55b3f3;
 }
 
 footer img {
@@ -72,6 +76,10 @@ main {
     margin: 0.3rem;
     display: flex;
     border-radius: 0.3rem;
+}
+
+section a {
+    background-color: #56adc6;
 }
 
 .sectioncentro {

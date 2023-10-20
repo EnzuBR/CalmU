@@ -1,6 +1,10 @@
+body {
+    font-family: 'Bree Serif', serif;
+}
+
 a {
     text-decoration: none;
-    color: rgb(86, 173, 198);
+    color: black;
 }
 
 header {
@@ -11,7 +15,7 @@ header {
     position: relative;
     border-bottom: 0.1rem solid black;
     padding: 0.5rem;
-    background-color: rgb(86, 173, 198);
+    background-color: #55b3f3;
 }
 
 header h1 {
@@ -31,7 +35,7 @@ footer {
     width: 100%;
     border-top: 0.1rem solid black;
     padding: 0.5rem;
-    background-color: rgb(86, 173, 198);
+    background-color: #55b3f3;
 }
 
 footer img {
@@ -99,6 +103,7 @@ h2 {
     min-width: 20%;
     height: 2rem;
     margin: 0 0 0 0.5rem;
+    font-family: 'Bree Serif', serif;
 }
 
 .search {
@@ -116,5 +121,22 @@ h2 {
 }
 
 .tg {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    font-family: 'Bree Serif', serif;
+}
+
+.autoaj {
+    background-color: #46d49f;
+}
+
+.ajudar {
+    background-color: #56adc6;
+}
+
+main section a {
+    position: relative;
+    left: 24%;
+    border: 0.1rem solid black;
+    border-radius: 0.3rem;
+    background-color: #56adc6;
 }
