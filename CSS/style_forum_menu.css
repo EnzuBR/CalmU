@@ -129,3 +129,39 @@ header h1{
     display: flex;
     justify-content: flex-end;
 }
+
+.botoes_tipo_de_conteudo {
+    border: 0.1rem solid black;
+    padding: 0.5rem;
+    margin: 0.1rem 0.7rem 0 0.7rem;
+    position: relative;
+    border-radius: 0.3rem;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button {
+    min-width: 50%;
+    height: 2.5rem;
+    margin: 0 0.2rem 0 0;
+    border-radius: 0.1rem;
+}
+
+li{
+    margin: 0.1rem;
+}
+
+.perfil{
+    max-width: 2.5rem;
+    height: auto;
+}
+
+.mais{
+    position: fixed;
+    left:90%;
+    bottom: 10.5%;
+    width: 2rem;
+    height: auto;
+}
