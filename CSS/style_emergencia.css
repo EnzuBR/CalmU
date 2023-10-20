@@ -64,6 +64,19 @@ section {
     justify-content: space-between;
 }
 
+.botoes_tipo_de_ajuda {
+    border: 0.1rem solid black;
+    padding: 0.5rem;
+    margin: 0.7rem;
+    margin-bottom: 0rem;
+    position: relative;
+    border-radius: 0.3rem;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 h5 {
     position: absolute;
     visibility: hidden;
