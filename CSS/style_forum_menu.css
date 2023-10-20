@@ -71,7 +71,7 @@ main{
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     position: relative;
     border-bottom: 0.1rem solid black;
@@ -80,6 +80,9 @@ header{
 }
 
 header h1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     font-size: 2rem;
 }
 
@@ -125,15 +128,4 @@ header h1{
 .alitems{
     display: flex;
     justify-content: flex-end;
-}
-
-.sectioncentro{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: 1rem;
-}
-
-h2{
-    font-size: 1.7rem;
 }
