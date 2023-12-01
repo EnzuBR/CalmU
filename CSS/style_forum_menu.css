@@ -169,18 +169,20 @@ li {
 
 .mais {
     position: fixed;
-    left: 90%;
-    bottom: 10.5%;
-    width: 2rem;
+    left: 87.5%;
+    bottom: 10%;
+    width: 3rem;
     height: auto;
     background-color: #56adc6;
     border-radius: 50%;
 }
 
-.selecionado {
-    background-color: #4499b3;
+.recomendado {
+    background-color: #56adc6;
+    font-weight: bold;
 }
 
-.nselecionado {
+.seguindo {
     background-color: #56adc6;
+    font-weight: lighter;
 }

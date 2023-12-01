@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+// Emergencia - Selecionar tipo de ajuda
     bot_autoaj = document.querySelector('.autoaj');
     bot_ajudar = document.querySelector('.ajudar');
     tipo_de_ajuda = document.querySelector('.tipo_de_ajuda');
@@ -11,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
             guia.href = 'emergencia_video_autoaj.html';
         });
     });
-
+    
     bot_ajudar.addEventListener('click', function () {
         tipo_de_ajuda.innerHTML = 'Ajudar Alguém';
         guias.forEach(function (guia) {
@@ -20,13 +21,5 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    const pagina_antiga = document.referrer;
-    const voltar = document.querySelector('.img_seta');
-
-    voltar.addEventListener('click', function () {
-        window.location.href = pagina_antiga || 'index.html';
-    });
-
-    const currentPage = window.location.pathname;
-    localStorage.setItem('lastVisitedPage', currentPage);
+//
 });
