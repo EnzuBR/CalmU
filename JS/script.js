@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         });
     }
+    
     // Exercicios - Meta de exercicios
     if (pagina == '/exercicios__menu.html') {
         num_med = document.querySelector('#num_med');
