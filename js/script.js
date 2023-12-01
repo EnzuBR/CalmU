@@ -34,30 +34,30 @@ document.addEventListener('DOMContentLoaded', function () {
         mais_al = document.querySelector('#mais_al');
         menos_al = document.querySelector('#menos_al');
 
-        num_med.innerHTML = localStorage.getItem('num_med') || 5;
-        num_al.innerHTML = localStorage.getItem('num_al') || 5;
+        num_med.innerHTML = sessionStorage.getItem('num_med') || 5;
+        num_al.innerHTML = sessionStorage.getItem('num_al') || 5;
 
         mais_med.addEventListener('click', function () {
             num_med.innerHTML = parseInt(num_med.innerHTML) + 1;
-            localStorage.setItem('num_med', num_med.innerHTML);
+            sessionStorage.setItem('num_med', num_med.innerHTML);
         });
         menos_med.addEventListener('click', function () {
             var valorAtual = parseInt(num_med.innerHTML);
             if (valorAtual > 0) {
                 num_med.innerHTML = valorAtual - 1;
-                localStorage.setItem('num_med', num_med.innerHTML);
+                sessionStorage.setItem('num_med', num_med.innerHTML);
             }
         });
 
         mais_al.addEventListener('click', function () {
             num_al.innerHTML = parseInt(num_al.innerHTML) + 1;
-            localStorage.setItem('num_al', num_al.innerHTML);
+            sessionStorage.setItem('num_al', num_al.innerHTML);
         });
         menos_al.addEventListener('click', function () {
             var valorAtual = parseInt(num_al.innerHTML);
             if (valorAtual > 0) {
                 num_al.innerHTML = valorAtual - 1;
-                localStorage.setItem('num_al', num_al.innerHTML);
+                sessionStorage.setItem('num_al', num_al.innerHTML);
             }
         });
     }
