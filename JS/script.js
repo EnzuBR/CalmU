@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
         bot_autoaj = document.querySelector('.autoaj');
         bot_ajudar = document.querySelector('.ajudar');
         tipo_de_ajuda = document.querySelector('.tipo_de_ajuda');
-        guias = document.querySelectorAll('#guia');
+        guias = document.querySelectorAll('.guia');
 
         bot_autoaj.addEventListener('click', function () {
             tipo_de_ajuda.innerHTML = 'Auto Ajuda';
