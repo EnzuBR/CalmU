@@ -52,7 +52,7 @@ main {
 section {
     border: 0.1rem solid black;
     padding: 0.5rem;
-    margin: 0.7rem;
+    margin: 0.5rem 0.7rem;
     position: relative;
     border-radius: 0.3rem;
 }
