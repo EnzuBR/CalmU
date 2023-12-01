@@ -137,11 +137,19 @@ input {
     cursor: pointer;
 }
 
+.divisao{
+    border-left: 0.1rem solid black;
+    height: 100%;
+    margin: 0 0.25rem;
+}
+
 .exs {
     height: 3rem;
+    width: 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.25rem;
 }
 
 .sectioncentro {
