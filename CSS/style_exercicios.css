@@ -114,6 +114,27 @@ input {
 .meta {
     width: 4rem;
     margin: 0.5rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.maismenos {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid black;
+    min-width: 1rem;
+    min-height: 1rem;
+    border-radius: 100%;
+    margin-top: 0.25rem;
+    background-color: #56adc6;
+    margin: 0.4rem;
+    margin-top: 0.1rem;
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
 }
 
 .exs {
