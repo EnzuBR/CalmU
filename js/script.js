@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     pagina = window.location.pathname
 
-    // Emergencia - Selecionar tipo de ajuda
+    // Emergencia - Selecionar tipo de ajuda.
     if (pagina == '/emergencia__menu.html') {
         bot_autoaj = document.querySelector('.autoaj');
         bot_ajudar = document.querySelector('.ajudar');
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
     
-    // Exercicios - Meta de exercicios
+    // Exercicios - Meta de exercicios.
     if (pagina == '/exercicios__menu.html') {
         num_med = document.querySelector('#num_med');
         mais_med = document.querySelector('#mais_med');
