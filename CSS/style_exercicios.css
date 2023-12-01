@@ -19,7 +19,12 @@ header {
     border-bottom: 0.1rem solid black;
     padding: 0.5rem;
     background-color: #55b3f3;
+}
 
+.titulo_exs{
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
 }
 
 header h1 {
