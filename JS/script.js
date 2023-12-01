@@ -19,4 +19,14 @@ document.addEventListener('DOMContentLoaded', function () {
             guia.href = 'emergencia_video.html';
         });
     });
+
+    const pagina_antiga = document.referrer;
+    const voltar = document.querySelector('.img_seta');
+
+    voltar.addEventListener('click', function () {
+        window.location.href = pagina_antiga || 'index.html';
+    });
+
+    const currentPage = window.location.pathname;
+    localStorage.setItem('lastVisitedPage', currentPage);
 });
