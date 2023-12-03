@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
         bot_autoaj.addEventListener('click', function () {
             tipo_de_ajuda.innerHTML = 'Auto Ajuda';
             guias.forEach(function (guia) {
-                guia.style.backgroundColor = '#46d49f';
+                guia.style.backgroundColor = '#A6D49F';
                 guia.href = 'emergencia_video_autoaj.html';
             });
         });
