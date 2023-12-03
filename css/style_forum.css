@@ -28,7 +28,7 @@ body {
 }
 
 .box {
-    border: 0.1rem solid black;
+    border: 0.1rem solid #000000;
     padding: 0.5rem;
     display: flex;
     border-radius: 0.3rem;
@@ -36,8 +36,8 @@ body {
 }
 
 .box2 {
-    border-top: 0.1rem solid black;
-    border-bottom: 0.1rem solid black;
+    border-top: 0.1rem solid #000000;
+    border-bottom: 0.1rem solid #000000;
     padding: 0.5rem;
     display: flex;
     background-color: #55b3f3;
@@ -56,7 +56,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    border-top: 0.1rem solid black;
+    border-top: 0.1rem solid #000000;
     padding: 0.5rem;
     background-color: #55b3f3;
 }
@@ -79,7 +79,7 @@ header {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    border-bottom: 0.1rem solid black;
+    border-bottom: 0.1rem solid #000000;
     padding: 0.5rem;
     background-color: #55b3f3;
 }
@@ -149,13 +149,13 @@ h3 {
 }
 
 .barras {
-    border-top: 0.1rem solid black;
-    border-bottom: 0.1rem solid black;
+    border-top: 0.1rem solid #000000;
+    border-bottom: 0.1rem solid #000000;
     padding: 0.5rem;
 }
 
 .barra {
-    border-bottom: 0.1rem solid black;
+    border-bottom: 0.1rem solid #000000;
     padding: 0.5rem;
 }
 

@@ -4,7 +4,7 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #000000;
 }
 
 header {
@@ -13,7 +13,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     position: relative;
-    border-bottom: 0.1rem solid black;
+    border-bottom: 0.1rem solid #000000;
     padding: 0.5rem;
     background-color: #55b3f3;
 }
@@ -41,7 +41,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    border-top: 0.1rem solid black;
+    border-top: 0.1rem solid #000000;
     padding: 0.5rem;
     background-color: #55b3f3;
 }
@@ -62,14 +62,14 @@ main {
 }
 
 .box {
-    border: 0.1rem solid black;
+    border: 0.1rem solid #000000;
     padding: 0.5rem 1rem 0.5rem 1rem;
     display: flex;
     border-radius: 0.3rem;
 }
 
 .boxzinho {
-    border: 0.1rem solid black;
+    border: 0.1rem solid #000000;
     width: 100%;
     height: auto;
     padding: 0.2rem;
