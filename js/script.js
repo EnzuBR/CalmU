@@ -61,5 +61,14 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     }
+
+    if (pagina == '/Equipe6_2B_CalmU/forum__menu.html' || pagina == '/forum__menu.html') {
+        botao1 = document.querySelectorAll('.tg')[0]
+        botao1.addEventListener('click', function(target){
+            target.setAttribute('class', 'tg recomendado')
+        })
+    }
+
+
     console.log(pagina)
 });
