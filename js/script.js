@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
         num_al.innerHTML = sessionStorage.getItem('num_al') || 5;
 
         mais_med.addEventListener('click', function () {
-            num_med.innerHTML = toString(parseInt(num_med.innerHTML) + 1);
+            num_med.innerHTML = parseInt(num_med.innerHTML) + 1;
             sessionStorage.setItem('num_med', num_med.innerHTML);
         });
         menos_med.addEventListener('click', function () {
