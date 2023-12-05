@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     pagina = window.location.pathname
 
     // Emergencia - Selecionar tipo de ajuda.
-    if (pagina == '/https://enzubr.github.io/Equipe6_2B_CalmU/emergencia__menu.html') {
+    if (pagina == '/emergencia__menu.html') {
         bot_autoaj = document.querySelector('.autoaj');
         bot_ajudar = document.querySelector('.ajudar');
         tipo_de_ajuda = document.querySelector('.tipo_de_ajuda');
