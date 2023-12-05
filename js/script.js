@@ -1,6 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
     pagina = window.location.pathname
 
+        // Botao de voltar funcionando certo
+        botao_voltar = document.querySelector('.img_seta')
+        botao_voltar.addEventListener('click', function(){
+            history.back()
+        })
+
     // Emergencia - Selecionar tipo de ajuda.
     if (pagina == '/Equipe6_2B_CalmU/emergencia__menu.html' || pagina == '/emergencia__menu.html') {
         bot_autoaj = document.querySelector('.autoaj');
