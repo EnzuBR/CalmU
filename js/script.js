@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     
     // Exercicios - Meta de exercicios.
-    if (pagina == '/Equipe6_2B_CalmU//exercicios__menu.html') {
+    if (pagina == '/Equipe6_2B_CalmU/exercicios__menu.html') {
         num_med = document.querySelector('#num_med');
         mais_med = document.querySelector('#mais_med');
         menos_med = document.querySelector('#menos_med');
@@ -61,5 +61,5 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     }
-    console.log(pagina.innerHTML)
+    console.log(pagina)
 });
