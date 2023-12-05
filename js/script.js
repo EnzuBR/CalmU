@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Botao de voltar funcionando certo
     botao_voltar = document.querySelector('.img_seta')
     botao_voltar.addEventListener('click', function(){
-        history.back()
+        window.history.back()
     })
 
     console.log(pagina)
