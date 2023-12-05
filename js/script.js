@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     pagina = window.location.pathname
 
     // Emergencia - Selecionar tipo de ajuda.
-    if (pagina == '/Equipe6_2B_CalmU/emergencia__menu.html') {
+    if (pagina == '/Equipe6_2B_CalmU/emergencia__menu.html' || pagina == '/emergencia__menu.html') {
         bot_autoaj = document.querySelector('.autoaj');
         bot_ajudar = document.querySelector('.ajudar');
         tipo_de_ajuda = document.querySelector('.tipo_de_ajuda');
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     
     // Exercicios - Meta de exercicios.
-    if (pagina == '/Equipe6_2B_CalmU/exercicios__menu.html') {
+    if (pagina == '/Equipe6_2B_CalmU/exercicios__menu.html' || pagina == '/exercicios__menu.html') {
         num_med = document.querySelector('#num_med');
         mais_med = document.querySelector('#mais_med');
         menos_med = document.querySelector('#menos_med');
